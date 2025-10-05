@@ -1,5 +1,5 @@
 import JokeShow from './components/JokeShow';
-import JokeActions from './components/JokeFetch';
+import JokeActions from './components/JokeActions';
 import { useEffect } from 'react';
 
 export default function Jokes() {

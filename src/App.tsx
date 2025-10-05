@@ -1,6 +1,6 @@
 import './App.css';
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import Jokes from './pages/Jokes';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 function App() {
   const queryClient = new QueryClient();

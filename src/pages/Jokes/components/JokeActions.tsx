@@ -58,7 +58,7 @@ function triggerJokePush() {
   }
 }
 
-export default function JokeFetch() {
+export default function JokeActions() {
   const [status, setStatus] = useState('Ready to fetch jokes');
   const [isOnline, setIsOnline] = useState(navigator.onLine);
   const { setIsLoading } = useJokesStore();
